@@ -1,8 +1,8 @@
 import { CartCard } from "../component/CartCard"
 import { useTitle } from "../hooks/useTitle"
-export const Card = () => {
+export const Card = ({title}) => {
 
-  useTitle()
+  useTitle(title)
 
   const products = [
     {"id":1,"name":"Apple watch","price":25,"image":"/assets/watch.jpg"},

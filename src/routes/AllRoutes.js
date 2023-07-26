@@ -4,9 +4,9 @@ import { Card, Home } from "../pages"
 export const AllRoutes = () => {
     return (
         <Routes>
-            <Route path="/" element={<Home/>}/>
+            <Route path="/" element={<Home title="Home"/>}/>
 
-            <Route path="/card"  element={<Card/>}/>
+            <Route path="/card"  element={<Card title="Card"/>}/>
         </Routes>
     )
 }
